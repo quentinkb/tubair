@@ -8,5 +8,6 @@ class Api {
   public : 
   
   int userDoHead();
+  void mesureDoPost(String valeur,String id_capteurs,String polluant);
   
 }; 

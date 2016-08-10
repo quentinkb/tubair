@@ -39,6 +39,15 @@ void updateLedLogin()
 void loop() {
   if(RETURN_CODE_LOGIN)
   {
-    
+    Serial.println("i'm sending data"); 
+    api_manager.mesureDoPost("79","1","CO2"); 
+    Serial.println("data sent"); 
+    unsigned long longDelayInSeconds = 60*15; // 15 minutes; 
+    int p = 0 ;   
+    while (p < longDelayInSeconds) {
+        delay(1000);
+        p++;
+
+    }
   }
 }

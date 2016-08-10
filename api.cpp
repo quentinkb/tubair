@@ -42,3 +42,25 @@ int Api::userDoHead(){
   
 }; 
 
+void Api::mesureDoPost(String valeur,String id_capteurs,String polluant){
+    EthernetClient client;
+    IPAddress ip(192, 168, 0, 177);
+    byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
+    char server[] = "tubairapp-tubair.rhcloud.com";   
+    String request = "POST /ws/v1/mesures?valeur=";
+    request = request + valeur + "&email_user=" + USERNAME + "&id_capteurs=" + id_capteurs + "&polluant=" + polluant + "&password=" + PASSWORD ; 
+    request = request + " HTTP/1.1" ; 
+    if (Ethernet.begin(mac) == 0) {
+      Ethernet.begin(mac, ip);
+    }
+    delay(2000);
+    if (client.connect(server, 80)) {
+      client.println(request);
+      client.println("Host: tubairapp-tubair.rhcloud.com");
+      client.println("Connection: close");
+      client.println();
+    } else {
+      // if you didn't get a connection to the server:
+    }
+};
+
