@@ -13,7 +13,7 @@ int Api::userDoHead(){
     if (Ethernet.begin(mac) == 0) {
       Ethernet.begin(mac, ip);
     }
-    delay(2000);
+    delay(30000);
     if (client.connect(server, 80)) {
       client.println(request);
       client.println("Host: tubairapp-tubair.rhcloud.com");
