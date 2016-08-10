@@ -6,6 +6,7 @@ int RETURN_CODE_LOGIN = 0;
 
 
 Api api_manager; 
+DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
   
@@ -40,7 +41,9 @@ void loop() {
   if(RETURN_CODE_LOGIN)
   {
     Serial.println("i'm sending data"); 
-    api_manager.mesureDoPost("79","1","CO2"); 
+    String temperature = ""; 
+    temperature = temperature + dht.readTemperature(); 
+    api_manager.mesureDoPost(temperature,"1","T"); 
     Serial.println("data sent"); 
     unsigned long longDelayInSeconds = 60*15; // 15 minutes; 
     int p = 0 ;   
