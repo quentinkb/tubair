@@ -5,8 +5,10 @@ const int RED_LED = 4 ;
 int RETURN_CODE_LOGIN = 0; 
 
 
+
 Api api_manager; 
 DHT dht(DHTPIN, DHTTYPE);
+MQ2 mq2(PIN_MQ2);
 
 void setup() {
   
@@ -14,6 +16,7 @@ void setup() {
   while (!Serial) {
     ; // wait for serial port to connect. Needed for native USB port only
   }
+  mq2.calibrate();
   pinMode(GREEN_LED,OUTPUT); 
   pinMode(RED_LED,OUTPUT); 
   Serial.println("Welcome"); 
@@ -41,7 +44,9 @@ void loop() {
   if(RETURN_CODE_LOGIN)
   {
     Serial.println("i'm sending data"); 
-    String temperature = ""; 
+    Serial.print(" Smoke: ");
+    Serial.print(mq2.readSmoke());
+    /*String temperature = ""; 
     temperature = temperature + dht.readTemperature(); 
     api_manager.mesureDoPost(temperature,"1","T"); 
     Serial.println("data sent"); 
@@ -51,6 +56,6 @@ void loop() {
         delay(1000);
         p++;
 
-    }
+    }*/
   }
 }
