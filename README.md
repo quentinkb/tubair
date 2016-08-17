@@ -1,5 +1,5 @@
-# tubair
-Arduino open source code for tubair project
+# TUB'AIR
+Arduino open source code for TUB'AIR project
 
 ## v0.0.1
 ### User authentification
@@ -11,7 +11,7 @@ Arduino open source code for tubair project
 
 *Clone all the repository on this link : https://github.com/quentinkb/tubair
 
-*Replace USERNAME and PASSWORD variables into api.h file by your Tub'air account IDs.
+*Replace USERNAME and PASSWORD variables into api.h file by your TUB'AIR account IDs.
 
 ![](http://nsa38.casimages.com/img/2016/08/17/160817104452784409.png)
 
