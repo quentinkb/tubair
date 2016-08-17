@@ -6,7 +6,7 @@ Arduino open source code for tubair project
 ### Step 1 
 Create an account on tubair.bitbucket.org and change USERNAME and PASSWORD variable into api.h file.
 
-<a href="http://www.casimages.com/i/160817104452784409.png.html" title="Autentification"><img src="http://nsa38.casimages.com/img/2016/08/17/160817104452784409.png" alt="Autentification" border="0"/>
+![Autentification](<a href="http://www.casimages.com/i/160817104452784409.png.html" title="Autentification"><img src="http://nsa38.casimages.com/img/2016/08/17/160817104452784409.png" alt="Autentification" border="0"/>)
 
 Branch one green led on GPIO 2 and one red led on GPIO 4. If the green led lights up, the connexion to our server is well initialized, otherwise you
 may have set a wrong username or password into the api.h file. 
