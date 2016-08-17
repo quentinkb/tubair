@@ -28,7 +28,7 @@ Launch the sketch_aug09a.ino arduino file.
 
 ![](http://nsa38.casimages.com/img/2016/08/17/160817121848377371.png)
 
-Click this button :
+Click this button and wait a led lights up.
 
 ![](http://nsa37.casimages.com/img/2016/08/17/160817122152909792.png)
 
