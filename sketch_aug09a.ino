@@ -33,7 +33,6 @@ int userDoHead(){
 
 void updateLedLogin()
 {
-  Serial.println("Welcome2");
   int code = userDoHead() ;
   Serial.println(code);
   if(code == 200){
@@ -49,20 +48,29 @@ void updateLedLogin()
 void loop() {
   if(RETURN_CODE_LOGIN)
   {
-    Serial.println("i'm sending data"); 
-    Serial.print(" Smoke: ");
+    Serial.println("\nI'm sending data");
+    Serial.print("Temperature: ");
+    Serial.println(dht.readTemperature());
+    Serial.print("Humidity: ");
+    Serial.println(dht.readHumidity());
+    Serial.print("Smoke: ");
     Serial.println(mq2.readSmoke());
+    Serial.print("CarbonMonoxide: ");
     Serial.println(mq7.readCarbonMonoxide());
+    Serial.print("Alcool: ");
     Serial.println(mq3.readAlcoholPpm());
     String Temperature = "";
+    String Humidity = "";
     String Smoke = "";
     String CarboneMonoxide = "";
     String AlcoholPpm = "";
     Temperature = Temperature + dht.readTemperature();
+    Humidity = Humidity + dht.readHumidity();
     Smoke = Smoke + mq2.readSmoke();
     CarboneMonoxide = CarboneMonoxide + mq7.readCarbonMonoxide();
     AlcoholPpm = AlcoholPpm + mq3.readAlcoholPpm();
     api_manager.mesureDoPost(Temperature,"1","T");
+    api_manager.mesureDoPost(Humidity,"1","H");
     api_manager.mesureDoPost(Smoke,"1","S");
     api_manager.mesureDoPost(CarboneMonoxide,"1","CO");
     api_manager.mesureDoPost(AlcoholPpm,"1","A");
