@@ -39,8 +39,7 @@ Arduino open source code for TUB'AIR project
 
 ![](http://nsa37.casimages.com/img/2016/08/17/160817122152909792.png)
 
-*-If the green led lights up, the connexion to our server is well initialized.
- -If the red led lights up, you may have set a wrong username or password into the api.h file. Replace them with your TUB'AIR account IDs and try again to click the button.
+*If the green led lights up, the connexion to our server is well initialized. If the red led lights up, you may have set a wrong username or password into the api.h file. Replace them with your TUB'AIR account IDs and try again to click the button.
 
 
 #### Humidity and temperature sensor installation
