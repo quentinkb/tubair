@@ -5,8 +5,6 @@ Arduino open source code for TUB'AIR project
 
 ### Prerequisites
  
- 
- 
 *Create an account on tubair.bitbucket.org.
 
 *Download and install the last version of Arduino : https://www.arduino.cc/en/Main/Software
@@ -18,9 +16,7 @@ Arduino open source code for TUB'AIR project
 ![](http://nsa38.casimages.com/img/2016/08/17/160817104452784409.png)
 
 
-
 ### Arduino boards building
-
 
 Connect your Arduino boards (the ethernet shield one on the top) :
 
