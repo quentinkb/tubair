@@ -1,10 +1,12 @@
 # tubair
 Arduino open source code for tubair project
 
-# v0.0.1
-## User authentification 
-### Step 1 
-Create an account on tubair.bitbucket.org and change USERNAME and PASSWORD variable into api.h file.
+## v0.0.1
+### User authentification 
+#### Step 1 
+Create an account on tubair.bitbucket.org.
+
+Change USERNAME and PASSWORD variable into api.h file.
 
 ![](http://nsa38.casimages.com/img/2016/08/17/160817104452784409.png)
 
