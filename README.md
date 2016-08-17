@@ -2,8 +2,7 @@
 Arduino open source code for TUB'AIR project
 
 ## v0.0.1
-### User authentification
-#### Step 1 
+### Prerequisites
 
 *Create an account on tubair.bitbucket.org.
 
@@ -14,6 +13,12 @@ Arduino open source code for TUB'AIR project
 *Replace USERNAME and PASSWORD variables into api.h file by your TUB'AIR account IDs.
 
 ![](http://nsa38.casimages.com/img/2016/08/17/160817104452784409.png)
+
+### Arduino boards building
+
+Connect your Arduino boards (the ethernet shield one on the top) :
+
+![](http://nsa38.casimages.com/img/2016/08/17/mini_160817114924506168.jpg)
 
 Branch one green led on GPIO 2 and one red led on GPIO 4. If the green led lights up, the connexion to our server is well initialized, otherwise you
 may have set a wrong username or password into the api.h file. 
