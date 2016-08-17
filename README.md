@@ -53,3 +53,8 @@ Arduino open source code for TUB'AIR project
 *Branch other sensors on the other side. Connect both sides and connect sensors as follow :
 
 ![](http://nsa37.casimages.com/img/2016/08/17/160817031113671585.png)
+
+
+
+END
+You can now download our App and see your stats !
