@@ -1,7 +1,7 @@
 #include <Ethernet.h>
 
-#define USERNAME "crash88@hotmail.fr" 
-#define PASSWORD "pe3kon7c" 
+#define USERNAME "USERNAME" 
+#define PASSWORD "PASSWORD" 
 
 class Api {
   
