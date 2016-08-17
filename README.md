@@ -47,3 +47,9 @@ Arduino open source code for TUB'AIR project
 *Branch your humidity and temperature sensor on the same side as old connections in previous step.
 
 ![](http://nsa38.casimages.com/img/2016/08/17/160817025413718421.png)
+
+#### Other sensors
+
+*Branch other sensors on the other side. Connect both sides and connect sensors as follow :
+
+![](http://nsa37.casimages.com/img/2016/08/17/160817031113671585.png)
