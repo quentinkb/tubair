@@ -6,8 +6,11 @@ Arduino open source code for tubair project
 #### Step 1 
 
 *Create an account on tubair.bitbucket.org.
+
 *Download and install the last version of Arduino : https://www.arduino.cc/en/Main/Software
+
 *Clone all the repository on this link : https://github.com/quentinkb/tubair
+
 *Change USERNAME and PASSWORD variable into api.h file.
 
 ![](http://nsa38.casimages.com/img/2016/08/17/160817104452784409.png)
