@@ -77,7 +77,11 @@ To build your proper Tub'Air, you will need :
 
 ![](http://nsa37.casimages.com/img/2016/08/17/160817031113671585.png)
 
+#### Connection
 
+Connect your USB and Ethernet cables
+
+![](http://nsa38.casimages.com/img/2016/08/30/mini_160830030623301908.jpg)
 
 END !
 
