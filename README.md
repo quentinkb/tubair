@@ -22,6 +22,10 @@ To build your proper Tub'Air, you will need :
 
 ![](http://nsa38.casimages.com/img/2016/08/30/160830025613784264.jpg)
 
+*DTH11 sensor
+
+![](http://nsa37.casimages.com/img/2016/08/30/160830030001605707.jpg)
+
 #### Account and files
  
 *Create an account on tubair.bitbucket.org.
