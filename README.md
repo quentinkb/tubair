@@ -18,6 +18,10 @@ To build your proper Tub'Air, you will need :
 
 ![](http://nsa38.casimages.com/img/2016/08/30/160830025442342397.jpg)
 
+*MQ 2, 3, 7 sensors
+
+![](http://nsa38.casimages.com/img/2016/08/30/160830025613784264.jpg)
+
 #### Account and files
  
 *Create an account on tubair.bitbucket.org.
