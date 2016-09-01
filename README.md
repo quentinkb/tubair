@@ -71,7 +71,7 @@ Branchez également un cable Ethernet à votre module.
 
 ![](http://nsa37.casimages.com/img/2016/08/17/160817122152909792.png)
 
-*Si la LED verte d'allume, alors la connection à notre serveur est réussie ! En revanche, si la LED rouge s'allume, cela signifie que vous n'avez pas créé votre compte ou bien simplement mal recopié vos identidiants dans le fichier "api.h". Rêgler le problème, puis appuyez de nouveau sur le bouton "Téléverser".
+*Si la LED verte d'allume, alors la connection à notre serveur est réussie ! En revanche, si la LED rouge s'allume, cela signifie que vous n'avez pas créé votre compte ou bien que vous avez mal recopié vos identidiants dans le fichier "api.h". Rêglez le problème, puis appuyez de nouveau sur le bouton "Téléverser".
 
 *Une fois la LED verte allumée, débranchez votre module Arduino, nous allons installer les capteurs !
 
