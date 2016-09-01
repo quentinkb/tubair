@@ -67,7 +67,7 @@ Branchez également un cable Ethernet à votre module.
 
 ![](http://nsa38.casimages.com/img/2016/08/30/mini_160830030623301908.jpg)
 
-*Cliquez sur le bouton "Téléverser" et attendez qu'une des deux leds s'allume (ce ne devrai pas prendre plus de deux minutes environ)
+*Cliquez sur le bouton "Téléverser" et attendez qu'une des deux LEDS s'allume (ce ne devrai pas prendre plus de deux minutes environ)
 
 ![](http://nsa37.casimages.com/img/2016/08/17/160817122152909792.png)
 
