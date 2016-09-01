@@ -90,7 +90,7 @@ Branchez également un cable Ethernet à votre module.
 
 *Branchez les autres capteurs de l'autre côté, mais toujours avec la même méthode, comme ci-dessous :
 
-![](http://nsa37.casimages.com/img/2016/08/17/160817031113671585.png)
+![](http://nsa37.casimages.com/img/2016/09/01/16090105010088784.png)
 
 #### Connection du module
 
