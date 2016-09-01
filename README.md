@@ -33,7 +33,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 *Une pegboard électronique
 
-![](http://nsa38.casimages.com/img/2016/09/01/mini_16090104452149580.png)
+![](http://nsa38.casimages.com/img/2016/09/01/16090104452149580.png)
 
 
 #### Compte Tub'Air, logiciel et fichiers essentiels
