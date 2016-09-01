@@ -84,7 +84,7 @@ Branchez également un cable Ethernet à votre module.
 
 *Branchez votre capteur de température et d'humidité du même côté de la "board" que les LEDS, comme on peut le voir ci-dessous :
 
-![](http://nsa38.casimages.com/img/2016/08/17/160817025413718421.png)
+![](http://nsa38.casimages.com/img/2016/09/01/160901050009448556.png)
 
 #### Autres capteurs
 
