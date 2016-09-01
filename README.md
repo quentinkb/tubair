@@ -27,7 +27,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 *Une LED rouge et une LED verte
 
-![](http://nsa38.casimages.com/img/2016/09/01/160901040338228619.png)
+![](http://nsa38.casimages.com/img/2016/09/01/mini_160901040338228619.png)
 
 
 #### Compte Tub'Air, logiciel et fichiers essentiels
