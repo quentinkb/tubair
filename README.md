@@ -21,7 +21,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 ![](http://nsa38.casimages.com/img/2016/08/30/mini_16083003012993680.jpg)
 
-*Capteur DTH11, pour la température et l'humidité
+*Capteur DHT11, pour la température et l'humidité
 
 ![](http://nsa37.casimages.com/img/2016/08/30/mini_160830030001605707.jpg)
 
@@ -82,13 +82,13 @@ Branchez également un cable Ethernet à votre module.
 
 #### Installation du capteur de température et d'humidité
 
-*Branchez votre capteur de température et d'humidité du même côté de la "board" que les LEDS, comme on peut le voir ci-dessous :
+*Branchez votre capteur de température et d'humidité (DHT11) du même côté de la "board" que les LEDS, comme on peut le voir ci-dessous :
 
 ![](http://nsa38.casimages.com/img/2016/09/01/160901050009448556.png)
 
 #### Autres capteurs
 
-*Branchez les autres capteurs de l'autre côté, mais toujours avec la même méthode, comme ci-dessous :
+*Branchez les autres capteurs de l'autre côté, le capteur MQ2 sur la sortie A0, MQ3 sur A2, MQ7 sur A1, comme ci-dessous :
 
 ![](http://nsa37.casimages.com/img/2016/09/01/16090105010088784.png)
 
