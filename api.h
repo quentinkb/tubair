@@ -9,8 +9,8 @@
  * type : String
  * @description : "identifiant : mot de passe du compte utilisateur, nécessaire pour l'authentification"
  */
-#define USERNAME "tryuserapp@gmail.com"
-#define PASSWORD "yolototo00"
+#define USERNAME "tuba"
+#define PASSWORD "tubatest"
 
 class Api {
   public : 

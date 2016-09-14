@@ -5,19 +5,13 @@
  * @description : "Code d'erreur renvoyé après authentification (1 si réussie, 0 si échec)"
  */
 int RETURN_CODE_LOGIN = 0;
+int buzzer = 7;// Borne de sortie
 
 Api api_manager;
 DHT dht(DHTPIN, DHTTYPE);
 MQ2 mq2(PIN_MQ2);
 MQ7 mq7(PIN_MQ7);
 MQ3 mq3(PIN_MQ3);
-
-/**
- * fonction : setup()
- * @description : "Initialise les capteurs, les emplacements de LEDS, appel de la fonction d'authentification"
- * @paramètres : /
- * @retour : void
- */
 
 void doPost(String valeur,String id_capteurs,String polluant, int security){
   //Serial.println("here");
@@ -27,7 +21,7 @@ void doPost(String valeur,String id_capteurs,String polluant, int security){
       IPAddress ip(192, 168, 0, 177);
       byte mac[] = { 0xAC, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
       char server[] = "tubair-tubair.rhcloud.com";
-      String request = "POST /mesures/";
+      String request = "POST /mesures/tuba1/";
       request = request + USERNAME + "/" + valeur + "/" + polluant;
       request = request + " HTTP/1.1" ;
       if (Ethernet.begin(mac) == 0) {
@@ -36,7 +30,7 @@ void doPost(String valeur,String id_capteurs,String polluant, int security){
       delay(2000);
       if (client.connect(server, 80)) {
         client.println(request);
-        //Serial.println(request); 
+        //Serial.println(request);
         client.println("Host: tubair-tubair.rhcloud.com");
         client.println("Connection: close");
         client.println();
@@ -60,18 +54,45 @@ void doPost(String valeur,String id_capteurs,String polluant, int security){
       }*/
   }
 };
+
+void bip(int pin,int time,int fq)
+{
+  int boucleMax = time/fq ; 
+  int i; 
+  for(i=0; i < boucleMax; i++)// Deuxième son à une autre fréquence
+  {
+    digitalWrite(pin,HIGH);// Faire du bruit
+    delay(fq);// Attendre 20ms
+    digitalWrite(pin,LOW);// Silence
+    delay(fq);// Attendre 20ms
+  }
+}
+
+/**
+ * fonction : setup()
+ * @description : "Initialise les capteurs, les emplacements de LEDS, appel de la fonction d'authentification"
+ * @paramètres : /
+ * @retour : void
+ */
 void setup() {
   /*Serial.begin(9600);
   while (!Serial) {
     ;// wait for serial port to connect. Needed for native USB port only
   }
   Serial.println("welcome");*/
-  mq2.calibrate();
-  mq3.calibrate();
-  mq7.calibrate();
   pinMode(GREEN_LED,OUTPUT);
   pinMode(RED_LED,OUTPUT);
   pinMode(START_LED,OUTPUT);
+  pinMode(buzzer,OUTPUT);// Définir la sortie du buzzer
+  bip(buzzer,100,1);
+  delay(100);
+  bip(buzzer,100,1);
+  delay(100);
+  bip(buzzer,100,1);
+  delay(100);
+  mq2.calibrate();
+  mq3.calibrate();
+  mq7.calibrate();
   //Serial.println("Welcome");
   digitalWrite(START_LED,LOW);
   delay(1000);
@@ -123,6 +144,10 @@ void updateLedLogin()
 void loop() {
   if(RETURN_CODE_LOGIN)
   {
+    bip(buzzer,100,1);
+    delay(100);
+    bip(buzzer,100,1);
+    delay(100);
     /*Serial.println("\nI'm sending data");
     Serial.print("Temperature: ");
     Serial.println(dht.readTemperature());
@@ -148,17 +173,27 @@ void loop() {
     doPost(Temperature,"1","T",0);
     //doPost(Temperature,"1","T",0);
     delay(5000);
+    bip(buzzer,100,3);
+    delay(100);
     doPost(Humidity,"1","H",0);
     //doPost(Humidity,"1","H",0);
     delay(5000);
+    bip(buzzer,100,3);
+    delay(100);
     //doPost(Smoke,"1","S",0);
     doPost(Smoke,"1","S",0);
+    bip(buzzer,100,3);
+    delay(100);
     delay(5000);
     //doPost(CarboneMonoxide,"1","CO",0);
     doPost(CarboneMonoxide,"1","CO",0);
+    bip(buzzer,100,3);
+    delay(100);
     delay(5000);
     //doPost(AlcoholPpm,"1","A",0);
     doPost(AlcoholPpm,"1","A",0);
+    bip(buzzer,100,3);
+    delay(100);
     delay(5000);
     digitalWrite(START_LED,LOW);
     delay(1000);
@@ -167,14 +202,19 @@ void loop() {
     digitalWrite(START_LED,LOW);
     delay(1000);
     //Serial.println("data sent");
+    bip(buzzer,100,1);
+    delay(100);
+    bip(buzzer,100,1);
+    delay(100);
     unsigned long longDelayInSeconds = 60*15; // 15 minutes;
     int p = 0 ;
     while (p < longDelayInSeconds) {
         delay(1000);
         p++;
     }
+  } else {
+    bip(buzzer,100,4);
+    delay(100);
   }
-
-
 }
 

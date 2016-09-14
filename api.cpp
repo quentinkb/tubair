@@ -12,7 +12,7 @@ int Api::userDoHead(){
     byte mac[] = { 0xDA, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
     char server[] = "tubair-tubair.rhcloud.com";
     int code = 404 ;
-    String request = "HEAD /users/";
+    String request = "HEAD /users/tubairusermng16v1.1qntom/";
     request = request + USERNAME + "/" + PASSWORD + " HTTP/1.1" ;
     if (Ethernet.begin(mac) == 0) {
       Ethernet.begin(mac, ip);
