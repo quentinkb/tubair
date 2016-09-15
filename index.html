@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tubair by quentinkb</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Tubair</h1>
+      <h2 class="project-tagline">Arduino open source code for tubair project</h2>
+      <a href="https://github.com/quentinkb/tubair" class="btn">View on GitHub</a>
+      <a href="https://github.com/quentinkb/tubair/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/quentinkb/tubair/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="tubair" class="anchor" href="#tubair" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TUB'AIR</h1>
+
+<h2>
+<a id="tutoriel-dinstallation-de-configuraton-et-de-construction-du-projet-tubair-" class="anchor" href="#tutoriel-dinstallation-de-configuraton-et-de-construction-du-projet-tubair-" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tutoriel d'installation, de configuraton et de construction du projet Tub'Air !</h2>
+
+<h3>
+<a id="prérequis" class="anchor" href="#pr%C3%A9requis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Prérequis</h3>
+
+<h4>
+<a id="matériel" class="anchor" href="#mat%C3%A9riel" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Matériel</h4>
+
+<p>Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants :</p>
+
+<p>*Carte Arduino "Uno"</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/08/30/160830025224881695.jpg" alt=""></p>
+
+<p>*Carte Arduino "Ethernet Shield"</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/08/30/160830025442342397.jpg" alt=""></p>
+
+<p>*Capteurs MQ 2, 3 et 7, pour la fumée, le monoxyde de carbone et l'alcool</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/08/30/mini_16083003012993680.jpg" alt=""></p>
+
+<p>*Capteur DHT11, pour la température et l'humidité</p>
+
+<p><img src="http://nsa37.casimages.com/img/2016/08/30/mini_160830030001605707.jpg" alt=""></p>
+
+<p>*Une LED rouge et une LED verte</p>
+
+<p><img src="http://nsa37.casimages.com/img/2016/09/01/160901040551782599.png" alt=""></p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/09/01/160901040438910070.png" alt=""></p>
+
+<p>*Une pegboard électronique</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/09/01/16090104452149580.png" alt=""></p>
+
+<h4>
+<a id="compte-tubair-logiciel-et-fichiers-essentiels" class="anchor" href="#compte-tubair-logiciel-et-fichiers-essentiels" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Compte Tub'Air, logiciel et fichiers essentiels</h4>
+
+<p>*Créez un compte Tub'Air sur notre site Web : tubair.bitbucket.org</p>
+
+<p>*Téléchargez et installez la dernière version d'Arduino : <a href="https://www.arduino.cc/en/Main/Software">https://www.arduino.cc/en/Main/Software</a></p>
+
+<p>*Clonez sur votre machine notre dépôt de fichiers à disposition sur ce lien : <a href="https://github.com/quentinkb/tubair">https://github.com/quentinkb/tubair</a></p>
+
+<p>*Remplacez dans le fichier "api.h" les mots "USERNAME" et "PASSWORD" par les identifiants de votre compte Tub'Air créé précédemment</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/08/17/160817104452784409.png" alt=""></p>
+
+<h3>
+<a id="construction-du-module-arduino" class="anchor" href="#construction-du-module-arduino" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Construction du module Arduino</h3>
+
+<h4>
+<a id="premières-étapes-jusquà-connection-du-module" class="anchor" href="#premi%C3%A8res-%C3%A9tapes-jusqu%C3%A0-connection-du-module" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Premières étapes jusqu'à connection du module</h4>
+
+<p>*Assemblez vos deux cartes Arduino (l'"Ethernet Shield" sur la "Uno"), ce qui devrai donner ceci :</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/08/17/mini_160817114924506168.jpg" alt=""></p>
+
+<p>*Branchez la LED verte sur la sortie numérique GPIO 2, et la rouge sur la GPIO 4</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/08/17/160817121623409266.png" alt=""></p>
+
+<p>*Ouvrez le fichier "sketch_aug09a.ino" avec le logiciel Arduino téléchargé et installé précédemment</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/08/17/160817121848377371.png" alt=""></p>
+
+<p>*Reliez votre module Arduino à votre ordinateur grâce au cable Arduino / USB.
+Branchez également un cable Ethernet à votre module.</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/08/30/mini_160830030623301908.jpg" alt=""></p>
+
+<p>*Cliquez sur le bouton "Téléverser" et attendez qu'une des deux LEDS s'allume (ce ne devrai pas prendre plus de deux minutes environ)</p>
+
+<p><img src="http://nsa37.casimages.com/img/2016/08/17/160817122152909792.png" alt=""></p>
+
+<p>*Si la LED verte d'allume, alors la connection à notre serveur est réussie ! En revanche, si la LED rouge s'allume, cela signifie que vous n'avez pas créé votre compte ou bien que vous avez mal recopié vos identidiants dans le fichier "api.h". Rêglez le problème, puis appuyez de nouveau sur le bouton "Téléverser".</p>
+
+<p>*Une fois la LED verte allumée, débranchez votre module Arduino, nous allons installer les capteurs !</p>
+
+<h4>
+<a id="installation-du-capteur-de-température-et-dhumidité" class="anchor" href="#installation-du-capteur-de-temp%C3%A9rature-et-dhumidit%C3%A9" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation du capteur de température et d'humidité</h4>
+
+<p>*Branchez votre capteur de température et d'humidité (DHT11) du même côté de la "board" que les LEDS, comme on peut le voir ci-dessous :</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/09/01/160901050009448556.png" alt=""></p>
+
+<h4>
+<a id="autres-capteurs" class="anchor" href="#autres-capteurs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Autres capteurs</h4>
+
+<p>*Branchez les autres capteurs de l'autre côté, le capteur MQ2 sur la sortie A0, MQ3 sur A2, MQ7 sur A1, comme ci-dessous :</p>
+
+<p><img src="http://nsa37.casimages.com/img/2016/09/01/16090105010088784.png" alt=""></p>
+
+<h4>
+<a id="connection-du-module" class="anchor" href="#connection-du-module" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Connection du module</h4>
+
+<p>*Rebranchez votre module Arduino comme à l'étape du test des LEDS !</p>
+
+<p>*Cliquez sur "Téléverser", et les mesures devraient commencer à être prises et envoyées au serveur !</p>
+
+<p><img src="http://nsa38.casimages.com/img/2016/08/30/mini_160830030623301908.jpg" alt=""></p>
+
+<p>FIN !</p>
+
+<p>Vous pouvez désormais télécharger notre application pour visualiser vos données !</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/quentinkb/tubair">Tubair</a> is maintained by <a href="https://github.com/quentinkb">quentinkb</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
