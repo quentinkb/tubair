@@ -15,7 +15,7 @@ MQ3 mq3(PIN_MQ3);
 
 void doPost(String valeur,String id_capteurs,String polluant, int security){
   //Serial.println("here");
-  if (security < 10) {
+  if (security < 2) {
       //Serial.println("secure pass");
       EthernetClient client;
       IPAddress ip(192, 168, 0, 177);
