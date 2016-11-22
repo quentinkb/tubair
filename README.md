@@ -3,7 +3,9 @@
 
 
 
+
 ### Prérequis
+
 
 #### Matériel
 
@@ -36,6 +38,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 ![](http://nsa38.casimages.com/img/2016/11/22/161122104815425934.png)
 
 
+
 #### Compte Tub'Air, logiciel et fichiers essentiels
  
 *Créez un compte Tub'Air sur notre site Web : tubair.bitbucket.org
@@ -47,6 +50,8 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 *Remplacez dans le fichier "api.h" les mots "USERNAME" et "PASSWORD" par les identifiants de votre compte Tub'Air créé précédemment
 
 ![](http://nsa38.casimages.com/img/2016/08/17/160817104452784409.png)
+
+
 
 
 ### Construction du module Arduino
@@ -80,17 +85,22 @@ Branchez également un cable Ethernet à votre module.
 *Une fois la LED verte allumée, débranchez votre module Arduino, nous allons installer les capteurs !
 
 
+
 #### Installation du capteur de température et d'humidité
 
 *Branchez votre capteur de température et d'humidité (DHT11) du même côté de la "board" que les LEDS, comme on peut le voir ci-dessous :
 
 ![](http://nsa38.casimages.com/img/2016/09/01/160901050009448556.png)
 
+
+
 #### Autres capteurs
 
 *Branchez les autres capteurs de l'autre côté, le capteur MQ2 sur la sortie A0, MQ3 sur A2, MQ7 sur A1, comme ci-dessous :
 
 ![](http://nsa37.casimages.com/img/2016/09/01/16090105010088784.png)
+
+
 
 #### Connection du module
 
