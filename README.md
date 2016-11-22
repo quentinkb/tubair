@@ -37,7 +37,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 ![](http://nsa38.casimages.com/img/2016/11/22/161122104815425934.png)
 
-*des fils mâle-mâle
+*18 fils mâle-mâle
 
 ![](http://nsa37.casimages.com/img/2016/11/22/161122105844916536.jpg)
 
