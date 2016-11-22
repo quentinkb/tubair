@@ -98,7 +98,7 @@ Une fois la LED verte allumée, débranchez votre module Arduino, nous allons in
 
 *Branchez votre capteur de température et d'humidité (DHT11) du même côté de la "board" que les LEDS, comme on peut le voir ci-dessous :
 
-![](http://nsa38.casimages.com/img/2016/09/01/160901050009448556.png)
+![](http://nsa37.casimages.com/img/2016/11/22/161122112536707832.png)
 
 
 
