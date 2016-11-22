@@ -51,7 +51,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 *Clonez sur votre machine notre dépôt de fichiers à disposition sur ce lien : https://github.com/quentinkb/tubair
 
-*Remplacez dans le fichier "api.h" les mots "USERNAME" et "PASSWORD" par les identifiants de votre compte Tub'Air créé précédemment
+*Remplacez dans le fichier "api.h" les mots "USERNAME" et "PASSWORD" écrits entre guillemets comme dans l'image suivante, par les identifiants de votre compte Tub'Air créé précédemment
 
 ![](http://nsa38.casimages.com/img/2016/08/17/160817104452784409.png)
 
