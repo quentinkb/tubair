@@ -105,6 +105,7 @@ Une fois la LED verte allumée, débranchez votre module Arduino, nous allons in
 #### Autres capteurs
 
 *Branchez les autres capteurs de l'autre côté, le capteur MQ2 sur la sortie A0, MQ3 sur A2, MQ7 sur A1, comme ci-dessous :
+note: ces trois capteurs se branchent exactement de la même manière.
 
 ![](http://nsa37.casimages.com/img/2016/09/01/16090105010088784.png)
 
