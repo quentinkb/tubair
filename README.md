@@ -60,6 +60,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 ### Construction du module Arduino
 
+Dans cette partie, pour une meilleure clarté des images, je me permet de ne pas représenter de nouveau les branchements des étapes de construction précédentes.
 
 #### Premières étapes jusqu'à connection du module
 
@@ -71,9 +72,9 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 ![](http://nsa38.casimages.com/img/2016/11/22/161122105414933866.png)
 
-*Branchez la LED verte sur la sortie numérique GPIO 2, et la rouge sur la GPIO 4
+*Branchez la LED verte sur la sortie numérique 2, et la rouge sur la 4
 
-![](http://nsa38.casimages.com/img/2016/08/17/160817121623409266.png)
+![](http://nsa38.casimages.com/img/2016/11/22/161122111907378510.png)
 
 *Ouvrez le fichier "sketch_aug09a.ino" avec le logiciel Arduino téléchargé et installé précédemment
 
