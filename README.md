@@ -37,6 +37,10 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 ![](http://nsa38.casimages.com/img/2016/11/22/161122104815425934.png)
 
+*des fils mâle-mâle
+
+![](http://nsa37.casimages.com/img/2016/11/22/161122105844916536.jpg)
+
 
 
 #### Compte Tub'Air, logiciel et fichiers essentiels
@@ -64,6 +68,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 ![](http://nsa38.casimages.com/img/2016/08/17/mini_160817114924506168.jpg)
 
 *Mise sous tension de la pegboard :
+
 ![](http://nsa38.casimages.com/img/2016/11/22/161122105414933866.png)
 
 *Branchez la LED verte sur la sortie numérique GPIO 2, et la rouge sur la GPIO 4
