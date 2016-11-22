@@ -11,7 +11,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 *Carte Arduino "Uno"
 
-![](http://nsa37.casimages.com/img/2016/11/22/161122104322408995.jpg) ![](http://nsa38.casimages.com/img/2016/11/22/16112210441874942.jpg)
+![](http://nsa37.casimages.com/img/2016/11/22/161122104322408995.jpg)
 
 *Carte Arduino "Ethernet Shield"
 
@@ -19,7 +19,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 *Capteurs MQ 2, 3 et 7, pour la fumée, le monoxyde de carbone et l'alcool
 
-![](http://nsa38.casimages.com/img/2016/08/30/mini_16083003012993680.jpg)
+![](http://nsa37.casimages.com/img/2016/11/22/161122104559607718.jpg)
 
 *Capteur DHT11, pour la température et l'humidité
 
