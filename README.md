@@ -125,8 +125,8 @@ Si la LED verte s’allume, alors la connexion à notre serveur est réussie ! E
 
 Petite précision, je vous conseille de placer le capteur de sorte à ce que les tiges pour le brancher soient du côté extérieur du breadboard. Cela sera sûrement plus clair en image :
 
-![](http://nsa38.casimages.com/img/2016/12/09/161209112146565507.jpg)
-![](http://nsa38.casimages.com/img/2016/12/09/161209112212831119.jpg)
+![](http://nsa38.casimages.com/img/2016/12/09/mini_161209114534541471.jpg)
+![](http://nsa37.casimages.com/img/2016/12/09/mini_161209114611614575.jpg)
 
 #### Alimentation de l'autre côté du breadboard
 
