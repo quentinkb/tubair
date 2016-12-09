@@ -38,6 +38,7 @@ Petite précision concernant la carte Ethernet Shield sur l’image ci-dessous :
 ![](http://nsa38.casimages.com/img/2016/11/22/161122104728925534.png)
 
 ![](http://nsa38.casimages.com/img/2016/11/22/161122104753354765.png)
+
 Ah oui, petite précision pour les LEDS, il y a toujours une tige plus longue que l’autre. Le courant doit rentrer du côté de la tige la plus longue, et ressortir du côté de la tige la plus courte.
 
 *Une pegboard électronique
@@ -49,6 +50,7 @@ Petite précision aussi pour le breadboard, afin que nous nous comprenions bien 
 
 Concernant le fonctionnement du breadboard, il est en réalité très simple. Observez cette image :
 ![](http://nsa38.casimages.com/img/2016/12/09/161209111400214979.png)
+
 Si on se réfère à l’image ci-dessus, on peut dire que dans les bandes « + » et « - », le courant circule « verticalement ». En revanche, dans la « masse », le courant circule « horizontalement ». Il sera donc important pour la suite, de ne pas placer par exemple les LEDS et les capteurs sur les mêmes lignes horizontales dans la « masse » !
 Vous pouvez observer que le capteur en haut de l’image possède plusieurs terminaisons électriques. Il est important que chacune soit sur des lignes horizontales de la « masse » différentes !
 
