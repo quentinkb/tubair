@@ -89,8 +89,6 @@ Dans cette seconde partie, pour une meilleure clarté des images, je me permets 
 Je vous conseille de positionner préalablement le breadboard et la carte arduino comme sur l’image suivante (la bande « - » extérieure sur la droite, la carte Arduino à droite du breadboard).
 ![](http://nsa37.casimages.com/img/2016/12/09/161209111702953539.png)
 
-![](http://nsa38.casimages.com/img/2016/11/22/161122105414933866.png)
-
 Mettez sous tension le breadboard à l’aide de deux fils : un partant du port 5V de la carte Arduino, allant en bas de la bande « + », l’autre partant du port GND (juste à côté du 5V) et allant en bas de la bande « - ».
 
 *Branchez les LEDS sur le breadboard, et reliez-les vers le module Arduino. La LED verte sur la sortie numérique 2, et la LED rouge sur la 4
