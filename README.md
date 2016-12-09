@@ -132,7 +132,7 @@ Petite précision, je vous conseille de placer le capteur de sorte à ce que les
 
 *Pour cette partie, très simple rassurez-vous, il suffit de faire communiquer les bandes de chaque côté du breadboard grâce à deux fils
 
-![](http://nsa38.casimages.com/img/2016/12/09/161209112330313386.jpg)
+![](http://nsa38.casimages.com/img/2016/12/09/mini_161209114714613327.jpg)
 
 #### Installation des capteurs MQ
 
@@ -144,8 +144,8 @@ NB : ces trois capteurs se branchent exactement de la même manière.
 
 Petite précision comme pour le capteur DHT11, les tiges des capteurs vers l’extérieur du breadboard.
 
-![](http://nsa37.casimages.com/img/2016/12/09/161209112538390998.jpg)
-![](http://nsa38.casimages.com/img/2016/12/09/161209112609236568.jpg)
+![](http://nsa38.casimages.com/img/2016/12/09/mini_161209114757410893.jpg)
+![](http://nsa38.casimages.com/img/2016/12/09/mini_161209114735316714.jpg)
 
 #### Connection finale du module
 
