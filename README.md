@@ -25,7 +25,7 @@ Petite précision concernant la carte Ethernet Shield sur l’image ci-dessous :
 
 ![](http://nsa37.casimages.com/img/2016/12/09/mini_161209114051630413.jpg)
 
-*Capteurs MQ 2, 3 et 7, pour la fumée, le monoxyde de carbone et l'alcool
+*Les capteurs MQ, de catégories 2, 3 et 7, pour mesurer respectivement la fumée, l’alcool et le monoxyde de carbone
 
 ![](http://nsa37.casimages.com/img/2016/11/22/161122104559607718.jpg)
 
