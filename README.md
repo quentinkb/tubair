@@ -23,7 +23,7 @@ Pour construire votre propre Tub'Air, vous aurez besoin des composants suivants 
 
 Petite précision concernant la carte Ethernet Shield sur l’image ci-dessous : Le zone en vert représente les sorties numériques, celle en rouge, les sorties analogiques.
 
-![](http://nsa37.casimages.com/img/2016/12/09/161209114051630413.jpg)
+![](http://nsa37.casimages.com/img/2016/12/09/mini_161209114051630413.jpg)
 
 *Capteurs MQ 2, 3 et 7, pour la fumée, le monoxyde de carbone et l'alcool
 
